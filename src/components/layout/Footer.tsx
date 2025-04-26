@@ -1,4 +1,3 @@
-import React from 'react';
 
 export const Footer = () => {
   return (
@@ -7,8 +6,9 @@ export const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-lg font-bold mb-4">Contact Us</h3>
-            <p>Phone: +254 786 338 487</p>
-            <p>Email: info@royalmabati.com</p>
+            <p className="flex items-center">
+              <a href="tel:+254784555661" className="hover:text-blue-400">(+254) 784 555 661</a>
+            </p>
           </div>
           <div>
             <h3 className="text-lg font-bold mb-4">Quick Links</h3>

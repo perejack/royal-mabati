@@ -131,6 +131,32 @@ export const Header = () => {
             </button>
           </div>
 
+          {/* Call Button with heartbeat animation - Always Visible on Mobile */}
+          <a
+            href="tel:+254784555661"
+            className="md:hidden flex items-center mr-4 bg-blue-600 text-white rounded-full shadow-md hover:bg-blue-700 transition-colors px-4 py-2 space-x-2"
+            aria-label="Call Us"
+          >
+            <motion.div
+              animate={{ scale: [1, 1.15, 1] }}
+              transition={{ duration: 0.8, repeat: Infinity, repeatType: "reverse" }}
+              className="flex items-center"
+            >
+              <Phone className="w-4 h-4" />
+            </motion.div>
+            
+            <div className="flex flex-col">
+              <motion.span 
+                className="text-xs font-semibold text-red-100 leading-tight"
+                animate={{ scale: [1, 1.05, 1] }}
+                transition={{ duration: 0.6, repeat: Infinity }}
+              >
+                Call Us
+              </motion.span>
+              <span className="text-xs font-medium">+254 784 555 661</span>
+            </div>
+          </a>
+          
           {/* Mobile Menu Button */}
           <button
             className="md:hidden p-2 rounded-md text-gray-700 hover:bg-gray-100 transition-colors"
