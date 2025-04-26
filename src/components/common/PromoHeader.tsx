@@ -1,4 +1,4 @@
-import { Phone, Mail, AlertTriangle } from 'lucide-react';
+import { Phone, AlertTriangle } from 'lucide-react';
 import { CONFIG } from '../../constants/config';
 import { sendToWhatsApp } from '../../utils/whatsapp';
 
@@ -26,11 +26,7 @@ export const PromoHeader = () => {
               </div>
               <div className="flex items-center">
                 <Phone className="w-5 h-5 text-yellow-300 mr-3" />
-                <span>254786338487</span>
-              </div>
-              <div className="flex items-center">
-                <Mail className="w-5 h-5 text-yellow-300 mr-3" />
-                <span>info@royalmabati.com</span>
+                <span>254784555661</span>
               </div>
             </div>
             <button
